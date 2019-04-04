@@ -11,6 +11,15 @@ Gradle
 ---
 [ ![Download](https://api.bintray.com/packages/robog/Maven/QQNaviView/images/download.svg) ](https://bintray.com/robog/Maven/QQNaviView/1.0.3)
 
+allprojects {
+    repositories {
+        ...
+        maven { url "https://dl.bintray.com/robog/Maven" }
+	
+        
+    }
+}
+
 ```
 dependencies {
 	implementation 'com.robog:QQNaviView:1.0.3'
